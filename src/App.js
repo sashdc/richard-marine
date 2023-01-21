@@ -8,7 +8,7 @@ import About from "./pages/About";
 import Partners from "./pages/Partners";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 
 function App() {
