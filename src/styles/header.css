@@ -1,0 +1,14 @@
+.navlogo{
+    animation: rotation 35s infinite linear;
+    background-color: transparent;
+    position: absolute;
+    top: 2;
+    left: 0;
+      }
+
+#navbarNav{
+    position: fixed;
+    right: 50px;
+    top: 0;
+    z-index: 200;
+}
