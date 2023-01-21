@@ -14,7 +14,7 @@ import Layout from "./components/Layout";
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
         <div className="RMSM">
           <div>
             <Routes>  
@@ -31,7 +31,7 @@ function App() {
             </Routes>
           </div>
         </div>
-      </Router>
+      </HashRouter>
     </>
   );
 }

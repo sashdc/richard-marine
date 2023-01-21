@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/richard-marine/static/css/main.a504d1de.css",
-    "main.js": "/richard-marine/static/js/main.11df20ef.js",
+    "main.js": "/richard-marine/static/js/main.dd95c384.js",
     "static/js/787.b9f15101.chunk.js": "/richard-marine/static/js/787.b9f15101.chunk.js",
     "static/media/rmsm-logo.png": "/richard-marine/static/media/rmsm-logo.c125b0d46e4d1bbf2069.png",
     "static/media/404.jpg": "/richard-marine/static/media/404.b7e9ff8ce9fbeb3baa3d.jpg",
     "index.html": "/richard-marine/index.html",
     "main.a504d1de.css.map": "/richard-marine/static/css/main.a504d1de.css.map",
-    "main.11df20ef.js.map": "/richard-marine/static/js/main.11df20ef.js.map",
+    "main.dd95c384.js.map": "/richard-marine/static/js/main.dd95c384.js.map",
     "787.b9f15101.chunk.js.map": "/richard-marine/static/js/787.b9f15101.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a504d1de.css",
-    "static/js/main.11df20ef.js"
+    "static/js/main.dd95c384.js"
   ]
 }
