@@ -1,4 +1,7 @@
 import "./App.css";
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import Main from "./components/Main";
 // import Header from "./components/Header";
 // import Footer from "./components/Footer";
@@ -8,13 +11,12 @@ import About from "./pages/About";
 import Partners from "./pages/Partners";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
-      <HashRouter>
+      <Router>
         <div className="RMSM">
           <div>
             <Routes>  
@@ -31,7 +33,7 @@ function App() {
             </Routes>
           </div>
         </div>
-      </HashRouter>
+      </Router>
     </>
   );
 }
