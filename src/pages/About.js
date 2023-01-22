@@ -8,13 +8,13 @@ export default function About() {
  data-ride="carousel" data-interval="2500">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block w-50 rounded" src="./richard-marine/carousel/carousel1.jpg" alt="First slide"/>
+      <img className="d-block  rounded" src="./richard-marine/carousel/carousel1.jpg" alt="First slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-50 rounded" src="./richard-marine/carousel/carousel2.jpg" alt="Second slide"/>
+      <img className="d-block  rounded" src="./richard-marine/carousel/carousel2.jpg" alt="Second slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block w-50 rounded" src="./richard-marine/carousel/carousel3.jpg" alt="Third slide"/>
+      <img className="d-block  rounded" src="./richard-marine/carousel/carousel3.jpg" alt="Third slide"/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
