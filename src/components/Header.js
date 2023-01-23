@@ -9,9 +9,9 @@ export default function Header() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light ">
-        <a className="navbar-brand " href="/">
+      <Link to="/" className="nav-link">
           <img className="mx-2 navlogo" src={logo} alt="RSMSlogo" height="80px"/>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"

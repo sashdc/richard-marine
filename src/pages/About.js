@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function About() {
   return (
     <div className='container-fluid w-75 m-auto mt-5 animate__animated animate__fadeIn'>
@@ -11,10 +12,13 @@ export default function About() {
       <img className="d-block  rounded" src="./richard-marine/carousel/carousel1.jpg" alt="First slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block  rounded" src="./richard-marine/carousel/carousel2.jpg" alt="Second slide"/>
+      <img className="d-block  rounded" src="./richard-marine/carousel/carousel2.JPG" alt="Second slide"/>
     </div>
     <div className="carousel-item">
       <img className="d-block  rounded" src="./richard-marine/carousel/carousel3.jpg" alt="Third slide"/>
+    </div>
+    <div className="carousel-item">
+      <img className="d-block  rounded" src="./richard-marine/carousel/carousel4.jpg" alt="Third slide"/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -42,7 +46,7 @@ export default function About() {
       </div>
 
       <div className='d-flex m-2 about-segment'>
-        <img src="./richard-marine/images/bollard-name.jpg" className = "rounded about-image" alt="first RMSM foundry" height="250px" />
+        <img src="./richard-marine/images/bollard-name.JPG" className = "rounded about-image" alt="first RMSM foundry" height="250px" />
         <p className='about-text m-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
       
       </div>
