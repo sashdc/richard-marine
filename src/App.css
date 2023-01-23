@@ -68,7 +68,7 @@
   @media (max-width: 1400px) {
     .about-segment {
       display: flex;
-      flex-direction: column;
+      flex-direction: column-reverse;
       /* align-items: center;
         justify-content: center;
         margin: 0 auto;

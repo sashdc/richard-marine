@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/footer.css";
-
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -13,11 +13,11 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-6">
                         <ul className="list-unstyled">
-                        <li><a href="/about">About</a></li>
+                        <li><Link to="/about">About</Link></li>
 
-                            <li><a href="/products">Products</a></li>
-                            <li><a href="/partners">Partners</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><Link to="/products">Products</Link></li>
+                            <li><Link to="/partners">Partners</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
 
                         </ul>
                     </div>
