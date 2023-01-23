@@ -2,6 +2,7 @@ import React from "react";
 import "animate.css";
 import logo from "../assets/images/rmsm-logo.png"
 import "../styles/header.css";
+import { Link } from "react-router-dom";
 
 
 export default function Header() {
@@ -24,24 +25,24 @@ export default function Header() {
         <div className="collapse navbar-collapse " id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="/about">
+            <Link to="/about" className="nav-link">
                 About <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Partners">
+            <Link to="/partners" className="nav-link">
                 Partners
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Products">
+            <Link to="/products" className="nav-link">
                 Products
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/Contact">
+              <Link to="/contact" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
             
           </ul>
