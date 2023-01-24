@@ -15,7 +15,16 @@
     background-color: rgb(177, 207, 207);
     min-height: 100vh;
     padding-bottom: 300px;
-  }
+    background-image: url("./assets/images/bg.png");
+    background-repeat: no-repeat;
+    background-size:90%;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(12px)  ;;
+
+  };    
+
+  
 
   .notfound {
     display: flex;
@@ -23,6 +32,10 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+  }
+
+  .carousel{
+    width: 80%;
   }
 
   .about-image {
@@ -40,6 +53,7 @@
     animation: rotation 195s infinite linear;
 
   }
+  
 
   .about-text {
     text-align: justify;
@@ -72,7 +86,7 @@
  
   }
 
-  @media (max-width: 1400px) {
+  @media (max-width: 1100px) {
     .about-segment {
       display: flex;
       flex-direction: column-reverse;
@@ -81,5 +95,10 @@
         margin: 0 auto;
         padding: 0; */
     }
+    }
 
+  @media (max-width: 950px) {
+    .carousel{
+      width: 100%;
+    }
   }

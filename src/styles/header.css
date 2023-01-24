@@ -6,6 +6,10 @@
     left: 0;
       }
 
+nav a:hover, footer a:focus {
+  color: #aaa;
+text-shadow:  1px 1px 22px  rgb(92, 92, 92);}
+
 #navbarNav{
     position: fixed;
     right: 30px;
@@ -15,4 +19,18 @@
     border-radius: 30px;
     padding: 6px;
     box-shadow: grey 3px 3px 20px 1px;
+    }
+
+    @media (max-width: 990px) {
+      #navbarNav{
+        border-radius: 10px;
+        background-color: rgb(205, 231, 231, 0.9);
+        padding: 13px;
+      }
+      .navlogo{
+        position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+      }
     }

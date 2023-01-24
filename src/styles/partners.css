@@ -19,7 +19,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color:rgba(19, 0, 185, 0.9);
+    background-color:rgba(140, 140, 143, 0.9);
   }
   
   .logocontainer:hover .overlay {

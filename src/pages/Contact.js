@@ -1,100 +1,54 @@
-import React, { useState } from "react";
-import { validateEmail } from "../utils/helper.js";
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import "../styles/contact.css";
 
 export default function Contact() {
+    const form = useRef();
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [errorMessage, setErrorMessage] = useState("");
-  
-  const handleInputChange = (e) => {
-    const { target } = e;
-    const inputType = target.type;
-    const inputValue = target.value;
-
-    if (inputType === "text") {
-      setName(inputValue);
-    } else if (inputType === "email") {
-      setEmail(inputValue);
-    } else {
-      setMessage(inputValue);
-    }
-
-    if (!name || !email || !message) {
-      setErrorMessage("Please include your contact details and a  message.");
-      return;
-    }
-  };
-
-  const handleFormSubmit = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    if (!name || !email || !message) {
-      setErrorMessage("Please include your contact details and a  message.");
-      return;
-    }
-    if (!validateEmail(email)) {
-      setErrorMessage("That doesn't look like a valid email address.");
-      return;
-    }
-
-    setName("");
-    setEmail("");
-    setMessage("");
-    setErrorMessage("");
-     
+    emailjs.sendForm('service_capu6om', 'template_nwy61rd', form.current, 'i18Go310_MJExmJzY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   };
 
-
   return (
-    <div class=" contact-text w-50 m-auto mt-5 animate__animated animate__fadeIn">
-      <h3 class = "text-center "> Reach out by filling out the form below.</h3>
-      <div class="contact">
-        <form>
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name-input"
-              value={name}
-              onChange={handleInputChange}
-              placeholder="Your name here"
-            />
-            <label for="email">Email address</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email-input"
-              value={email}
-              onChange={handleInputChange}
-              placeholder="name@example.com"
-            />
-          </div>
-          <div class="form-group">
-            <label for="message"></label>
-            <textarea
-              class="form-control"
-              id="contact-content"
-              value={message}
-              onChange={handleInputChange}
-              placeholder="Enter a message here."
-              rows="7"></textarea>
-          </div>
-          <button type="submit"   onClick={handleFormSubmit} class="btn btn-primary mt-2">
-            Submit
-          </button>
-          {errorMessage && (
-            <div class="text-muted">
-              <p><em>{errorMessage}</em></p>
-            </div>)}
-        </form>
-      </div>
-   
+    <div className="">
+    <div className=" contact d-flex w-75 m-auto mt-5 animate__animated animate__fadeIn">
+    <div className='contact-info'>
+    <div className="card rounded shadow mt-5" >
+  <img className="card-img-top" src="./richard-marine/images/bollard-name.JPG" alt="Card cap"/>
+  <div className="card-body">
+    <h5 className="card-title">Contact Us</h5>
+    <p className="card-text">PO BOX ADDRESS Etc</p>
+  </div>
+  <ul className="list-group list-group-flush mb-2">
+    <li className="list-group-item"><a href="mailto:mahanram@gmail.com"><i className='fa fa-envelope'> : mahanram@gmail.com</i></a></li>
+    <li className="list-group-item"><a href="tel:555-555-5555"><i className='fa fa-phone'> : 555-555-5555</i></a></li>
+    <li className="list-group-item">Vestibulum at eros</li>
+  </ul>
+
+</div>
     </div>
 
-    
+    <div className="contact-form  mt-5">
+    <h4 className = "text-center ">Or reach out by filling out this form</h4>
+
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" className='form-control' name="from_name" />
+      <label>Email</label>
+      <input type="email" className='form-control' name="from_email" />
+      <label>Message</label>
+      <textarea name="message" className='form-control'rows="8"/>
+      <input type="submit" className = "mt-2 btn btn-primary" value="Send" />
+    </form>
+    </div>
+    </div>
+    </div>
   );
-}
+};

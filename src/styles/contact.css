@@ -1,0 +1,30 @@
+
+
+.contact-info{
+    width: 50%;
+    margin: 20px;
+}
+
+.contact-form{
+    width: 60%;
+}
+
+
+
+
+
+
+    @media (max-width: 1200px) {
+        .contact-info{
+            width: 100%;
+            margin: 0px;
+        }
+        .contact{
+            flex-direction: column;
+            margin: auto;
+        }
+        .contact-form{
+            width: 100%;
+        }
+
+    }
