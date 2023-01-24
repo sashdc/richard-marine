@@ -25,7 +25,7 @@ export default function Contact() {
     <div className="">
     <div className=" contact d-flex w-75 m-auto mt-5 animate__animated animate__fadeIn">
     <div className='contact-info'>
-    <div className="card rounded shadow mt-5" >
+    <div className="card rounded bg-light shadow mt-5" >
   <img className="card-img-top" src="./richard-marine/images/bollard-name.JPG" alt="Card cap"/>
   <div className="card-body">
     <h5 className="card-title">Contact Us</h5>
@@ -40,7 +40,7 @@ export default function Contact() {
 </div>
     </div>
 
-    <div className="contact-form  mt-5">
+    <div className="contact-form  bg-light p-3 shadow mt-5 m-3">
     <h4 className = "text-center ">Or reach out by filling out this form</h4>
 
     <form ref={form} onSubmit={sendEmail}>
