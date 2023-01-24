@@ -24,7 +24,7 @@ text-shadow:  1px 1px 22px  rgb(92, 92, 92);}
     @media (max-width: 990px) {
       #navbarNav{
         border-radius: 10px;
-        background-color: rgb(205, 231, 231, 0.9);
+        background-color: f5f5f5;
         padding: 13px;
       }
       .navlogo{

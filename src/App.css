@@ -12,15 +12,15 @@
 
 
   body {
-    background-color: rgb(177, 207, 207);
+    background-color: f5f5f5;
     min-height: 100vh;
     padding-bottom: 300px;
     background-image: url("./assets/images/bg.png");
     background-repeat: no-repeat;
-    background-size:90%;
+    background-size:80%;
     background-position: center;
     background-attachment: fixed;
-    backdrop-filter: blur(12px)  ;;
+    backdrop-filter: blur(18px)  ;;
 
   };    
 
