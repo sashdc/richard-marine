@@ -9,16 +9,16 @@ export default function About() {
  data-ride="carousel" data-interval="2500">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img className="d-block  rounded" src="./richard-marine/carousel/carousel1.jpg" alt="First slide"/>
+      <img className="d-block car-image  rounded" src="./richard-marine/carousel/carousel1.jpg" alt="First slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block  rounded" src="./richard-marine/carousel/carousel2.JPG" alt="Second slide"/>
+      <img className="d-block car-image rounded" src="./richard-marine/carousel/carousel2.JPG" alt="Second slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block  rounded" src="./richard-marine/carousel/carousel3.jpg" alt="Third slide"/>
+      <img className="d-block car-image rounded" src="./richard-marine/carousel/carousel3.jpg" alt="Third slide"/>
     </div>
     <div className="carousel-item">
-      <img className="d-block  rounded" src="./richard-marine/carousel/carousel4.jpg" alt="Third slide"/>
+      <img className="d-block car-image  rounded" src="./richard-marine/carousel/carousel4.jpg" alt="Third slide"/>
     </div>
   </div>
   <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -41,7 +41,7 @@ export default function About() {
 
       <div className='d-flex m-2 about-segment'>
         <p className='about-text m-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-        <img src="./richard-marine/images/bollard-skyline.jpg" className = "rounded about-image" alt="RMSM bollard against dubai skyline" height="300px" />
+        <img src="./richard-marine/images/bollard-skyline.jpg" className = "rounded about-image" alt="RMSM bollard against dubai skyline" height="250px" />
 
       </div>
 

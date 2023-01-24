@@ -8,8 +8,8 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: "Kanit", sans-serif;
-
   }
+
 
   body {
     background-color: rgb(177, 207, 207);
@@ -28,6 +28,12 @@
   .about-image {
     scale: 1;
     transition: all 0.3s ease;
+  }
+
+  .car-image{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
   }
 
   .landinglogo {
@@ -56,13 +62,14 @@
   }
 
   /* for smaller screens */
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     .landinglogo {
       width: 100%;
       height: auto;
       margin: 0 auto;
-
     }
+
+ 
   }
 
   @media (max-width: 1400px) {
