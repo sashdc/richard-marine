@@ -20,7 +20,7 @@
     background-size:80%;
     background-position: center;
     background-attachment: fixed;
-    backdrop-filter: blur(18px)  ;;
+    backdrop-filter: blur(8px)  ;;
 
   };    
 
@@ -51,7 +51,6 @@
 
   .landinglogo {
     animation: rotation 10s infinite linear;
-
   }
   
 
@@ -94,6 +93,8 @@
 
     .about-image:hover {
       transform: scale(1);
+      box-shadow: black 0px 0px 12px 1px;
+
     }
   }
 

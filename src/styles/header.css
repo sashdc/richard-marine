@@ -9,18 +9,19 @@
 nav a:hover,
 footer a:focus {
   color: #aaa;
-  text-shadow: 1px 1px 22px rgb(92, 92, 92);
+  text-shadow: 1px 1px 44px rgb(92, 92, 92);
+  
 }
 
 #navbarNav {
   position: fixed;
-  right: 30px;
-  top: 30px;
+  right: 18px;
+  top: 18px;
   z-index: 200;
   background-color: rgb(247, 247, 247);
   border-radius: 30px;
   padding: 10px;
-  box-shadow: grey 3px 3px 20px 1px;
+  box-shadow: grey 2px 2px 7px 1px;
 }
 
 @media (max-width: 990px) {
