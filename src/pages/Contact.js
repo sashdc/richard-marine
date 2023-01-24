@@ -1,16 +1,21 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+// import { validateEmail } from "../../utils/helper.js";
+
 import "../styles/contact.css";
 
 export default function Contact() {
     const form = useRef();
 
+    
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_capu6om', 'template_nwy61rd', form.current, 'i18Go310_MJExmJzY')
       .then((result) => {
           console.log(result.text);
+          e.target.reset();
+          alert("Thank you for your message, we will get back to you shortly")
       }, (error) => {
           console.log(error.text);
       });
