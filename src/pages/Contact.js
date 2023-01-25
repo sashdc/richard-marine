@@ -24,7 +24,7 @@ export default function Contact() {
   return (
     <div className="">
     <div className=" contact d-flex w-75 m-auto mt-5 animate__animated animate__fadeIn">
-    <div className='contact-info'>
+    <div className='contact-info '>
     <div className="card rounded bg-light shadow mt-5" >
   <img className="card-img-top" src="./richard-marine/images/bollard-name.JPG" alt="Card cap"/>
   <div className="card-body">
