@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/richard-marine/static/css/main.a504d1de.css",
-    "main.js": "/richard-marine/static/js/main.17e608b5.js",
+    "main.css": "/richard-marine/static/css/main.7922aca1.css",
+    "main.js": "/richard-marine/static/js/main.efd41dee.js",
     "static/js/787.b9f15101.chunk.js": "/richard-marine/static/js/787.b9f15101.chunk.js",
     "static/media/rmsm-logo.png": "/richard-marine/static/media/rmsm-logo.c125b0d46e4d1bbf2069.png",
     "static/media/404.jpg": "/richard-marine/static/media/404.b7e9ff8ce9fbeb3baa3d.jpg",
+    "static/media/bg.png": "/richard-marine/static/media/bg.c1856fff4f103f0b4133.png",
     "index.html": "/richard-marine/index.html",
-    "main.a504d1de.css.map": "/richard-marine/static/css/main.a504d1de.css.map",
-    "main.17e608b5.js.map": "/richard-marine/static/js/main.17e608b5.js.map",
+    "main.7922aca1.css.map": "/richard-marine/static/css/main.7922aca1.css.map",
+    "main.efd41dee.js.map": "/richard-marine/static/js/main.efd41dee.js.map",
     "787.b9f15101.chunk.js.map": "/richard-marine/static/js/787.b9f15101.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a504d1de.css",
-    "static/js/main.17e608b5.js"
+    "static/css/main.7922aca1.css",
+    "static/js/main.efd41dee.js"
   ]
 }
