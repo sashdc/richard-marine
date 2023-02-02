@@ -29,5 +29,11 @@ export const partnerData = [
     logo: "./richard-marine/partners/placeholder.png",
     
 },
+{
+    name: "Partner",
+    url: "http://www.partner.com/",
+    logo: "./richard-marine/partners/placeholder.png",
+    
+},
 
 ]
