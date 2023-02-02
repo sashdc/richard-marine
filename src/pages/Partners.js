@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/partners.css";
 import Partner from "./Partner";
-import { partnerData } from "../partnerdata/partnerData";
+import { partnerData } from "./partnerdata/partnerData";
 import "animate.css";
 
 
