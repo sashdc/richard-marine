@@ -29,10 +29,10 @@ export default function Contact() {
   <img className="card-img-top" src="./richard-marine/images/bollard-name.JPG" alt="Card cap"/>
   <div className="card-body">
     <h5 className="card-title">Contact Us</h5>
-    <p className="card-text">PO BOX ADDRESS Etc</p>
+    <p className="card-text">P.O. Box 4116, Dubai, United Arab Emirates</p>
   </div>
   <ul className="list-group list-group-flush mb-2">
-    <li className="list-group-item"><a href="mailto:mahanram@gmail.com"><i className='fa fa-envelope'> : mahanram@gmail.com</i></a></li>
+    <li className="list-group-item"><a href="mailto:mahanram@gmail.com"><i className='fa fa-envelope'> :test@gmail.com</i></a></li>
     <li className="list-group-item"><a href="tel:555-555-5555"><i className='fa fa-phone'> : 555-555-5555</i></a></li>
     <li className="list-group-item">Vestibulum at eros</li>
   </ul>

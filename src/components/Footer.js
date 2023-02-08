@@ -9,7 +9,9 @@ export default function Footer() {
     <div className="container-fluid">
         <div className="row">
             <div className="col-md-5">
-                <h5><i className="fa fa-anchor"></i> Richards Marine Safe Mooring</h5>
+                <div className="footer-title"><h5><i className="fa fa-anchor"></i> Richards Marine Safe Mooring<i className="fa fa-anchor"></i></h5>
+                <p>Mooring & Quayside Equipment Since 1875</p>
+                </div>
                 <div className="row">
                     <div className="col-6">
                         <ul className="list-unstyled">

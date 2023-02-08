@@ -6,34 +6,34 @@ export const partnerData = [
     
 },
 {
-    name: "Partner",
-    url: "http://www.partner.com/",
-    logo: "./richard-marine/partners/placeholder.png",
+    name: "mampaey",
+    url: "https://mampaey.com/",
+    logo: "./richard-marine/partners/mampaey.png",
     
 },
 {
-    name: "Partner",
-    url: "http://www.partner.com/",
-    logo: "./richard-marine/partners/placeholder.png",
+    name: "BollardScan",
+    url: "https://bollardscan.com/",
+    logo: "./richard-marine/partners/bollardscan.png",
     
 },
 {
-    name: "Partner",
-    url: "http://www.partner.com/",
-    logo: "./richard-marine/partners/placeholder.png",
+    name: "Shibata Fender Team",
+    url: "https://www.shibata-fender.team/en/",
+    logo: "./richard-marine/partners/shibata.png",
     
 },
-{
-    name: "Partner",
-    url: "http://www.partner.com/",
-    logo: "./richard-marine/partners/placeholder.png",
+// {
+//     name: "Partner",
+//     url: "http://www.partner.com/",
+//     logo: "./richard-marine/partners/placeholder.png",
     
-},
-{
-    name: "Partner",
-    url: "http://www.partner.com/",
-    logo: "./richard-marine/partners/placeholder.png",
+// },
+// {
+//     name: "Partner",
+//     url: "http://www.partner.com/",
+//     logo: "./richard-marine/partners/placeholder.png",
     
-},
+// },
 
 ]
