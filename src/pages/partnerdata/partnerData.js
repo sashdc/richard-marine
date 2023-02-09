@@ -14,7 +14,7 @@ export const partnerData = [
 {
     name: "BollardScan",
     url: "https://bollardscan.com/",
-    logo: "./richard-marine/partners/bollardscan.png",
+    logo: "./richard-marine/partners/BollardScan.png",
     
 },
 {
