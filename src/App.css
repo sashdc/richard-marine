@@ -14,13 +14,13 @@
   body {
     background-color: #dfdede;
     min-height: 100vh;
-    padding-bottom: 300px;
+    padding-bottom: 240px;
     background-image: url("./assets/images/bg.png");
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
     background-attachment: fixed;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(6px);
     ;
 
   }

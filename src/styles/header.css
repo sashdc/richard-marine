@@ -6,6 +6,7 @@
   left: 0;
 }
 
+
 nav a:hover,
 footer a:focus {
   color: #aaa;
@@ -15,7 +16,7 @@ footer a:focus {
 
 #navbarNav {
   position: fixed;
-  right: 18px;
+  right: 28px;
   top: 18px;
   z-index: 200;
   background-color: rgb(247, 247, 247);
