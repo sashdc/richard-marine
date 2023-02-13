@@ -20,8 +20,8 @@ export default function Footer() {
                 <p>Mooring & Quayside Equipment Since 1875</p>
                 </div>
                 <div className="row">
-                    <div className="col-6">
-                        <ul className="list-unstyled">
+                    <div className="">
+                        <ul className="list-unstyled d-flex">
                         <li><Link to="/about">About</Link></li>
 
                             <li><Link to="/products">Products</Link></li>

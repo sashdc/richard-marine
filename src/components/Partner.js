@@ -4,11 +4,11 @@ import "animate.css";
 export default function Partner(props) {
     return (
         
-          <div className="logocontainer m-4 shadow  animate__animated animate__fadeInUp">
+          <div className="logocontainer  m-4 shadow  animate__animated animate__fadeInUp">
             <img
               src={props.img}
               alt={props.name}
-              className="image"
+              className="image rounded"
             />
             <div className="overlay">
               <div className="text partner-link">
