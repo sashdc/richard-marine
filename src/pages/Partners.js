@@ -15,6 +15,7 @@ export default function Partners() {
       <div className="partners  w-100">
           {partnerData.map((partner) => (
             <Partner
+            key={partner.id}
             name={partner.name}
             url={partner.url}
             img={partner.logo}

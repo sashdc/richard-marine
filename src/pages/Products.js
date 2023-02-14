@@ -15,6 +15,7 @@ export default function Products() {
         <div className="partners  w-100">
           {productData.map((product) => (
             <Product
+              key={product.id}
               name={product.name}
               url={product.url}
               img={product.image}
