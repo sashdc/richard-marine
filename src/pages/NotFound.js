@@ -13,7 +13,7 @@ export default function NotFound() {
             height="50%"
             alt="404"
           />
-         <h3> Uh-oh! Looks like you're lost. Click here to go back home</h3>
+         <h2> Uh-oh! Looks like you're lost. Click here to go back home</h2>
         </a>
       </div>
     </div>

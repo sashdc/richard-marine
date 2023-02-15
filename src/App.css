@@ -21,9 +21,7 @@
     background-position: center;
     background-attachment: fixed;
     backdrop-filter: blur(6px);
-    ;
-
-  }
+      }
 
 
   .notfound {
@@ -31,7 +29,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .notfound a{
     text-decoration: none;
+    color: black;
+    margin-top: 2rem;
   }
 
   .carousel {
@@ -56,6 +59,7 @@
 
   .about-text {
     text-align: justify;
+    font-size: 1.3rem;
   }
 
   .about-image:hover {

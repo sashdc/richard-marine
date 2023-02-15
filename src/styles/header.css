@@ -22,6 +22,7 @@ footer a:focus {
   border-radius: 20px;
   padding: 10px;
   box-shadow: grey 2px 2px 7px 1px;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 990px) {
