@@ -35,6 +35,8 @@
     text-decoration: none;
     color: black;
     margin-top: 2rem;
+    flex-direction: column;
+    display: flex;
   }
 
   .carousel {
