@@ -1,0 +1,23 @@
+.landing{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+}
+ 
+
+
+.landinglogo {
+height: 50rem;
+/* flex: 1; */
+/* margin: 0 auto; */
+}
+
+@media (max-width: 1000px) {
+    .landinglogo {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+}

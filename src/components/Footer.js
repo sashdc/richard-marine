@@ -5,12 +5,8 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div>
-        {/* <img
-        className=""
-              src="./richard-marine/footerspread.png"
-              alt="logo abstract"
-            /> */}
-    <footer className="footer mt-5">
+      
+    <footer className="footer ">
     <div className="container-fluid">
         
         <div className="row">
