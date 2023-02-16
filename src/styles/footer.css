@@ -1,55 +1,31 @@
-/* @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300); */
 
-body {
-    font-family: 'Alegreya Sans', sans-serif;
-}
 
-footer img{
-  position: sticky;
-  bottom: 0;
-}
 
 /* Sticky footer position and size
 -------------------------------------------------- */
-html {
+/* html {
   position: relative;
   min-height: 10%;
-}
+} */
 
 footer{
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* padding-top: 10px; */
+  padding-top: 100px;
   /* height: 2.5rem;   */
+  border-top: 4px double rgb(180, 3, 17);
 }
 
 .footer {
-  /* position: absolute; */
-  /* bottom: 0; */
-  /* width: 100vw; */
+  position: fixed;
+  bottom: 0; 
+  width: 100%;
   text-align: center;
-  
-  /* Set the fixed height of the footer here */
-  /* height: 30px; */
-}
-
-/* Taller footer on small screens */
-@media (max-width: 567em) {
-    body {
-      /* margin-bottom: 700px; */
-    }
-    .footer {
-      /* height: 700px; */
-    }
-}
-
-/* Sticky footer style and color
--------------------------------------------------- */
-footer {
   padding-top: 15px;
-  background-color: #292c2f;
+  background-color: #353738;
   color: #bbb;
+  
 }
 
 footer a {

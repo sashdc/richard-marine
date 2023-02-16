@@ -10,72 +10,29 @@
     font-family: "Kanit", sans-serif;
   }
 
-
   body {
     background-color: #dfdede;
     min-height: 100vh;
-    padding-bottom: 240px;
+    /* padding-bottom: 200px; */
     background-image: url("./assets/images/bg.png");
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: center;
     background-attachment: fixed;
     backdrop-filter: blur(6px);
-      }
-
-
-  .notfound {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
-  .notfound a{
-    text-decoration: none;
-    color: black;
-    margin-top: 2rem;
-    flex-direction: column;
-    display: flex;
-  }
-
-  .carousel {
-    width: 80%;
-  }
-
-  .about-image {
-    scale: 1;
-    transition: all 0.3s ease;
-  }
-
-  .car-image {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
+  .section-heading{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: rgb(180, 3, 17);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 07px;
+    font-size: 3rem;
   }
 
   .landinglogo {
     animation: rotation 10s infinite linear;
-  }
-
-
-  .about-text {
-    text-align: justify;
-    font-size: 1.3rem;
-  }
-
-  .about-image:hover {
-    transform: scale(1.2);
-    transition: all 0.8s ease;
-    box-shadow: black 0px 0px 30px 3px;
-  }
-
-  .partners {
-    display: grid;
-    grid-template-columns: auto auto ;
-    grid-template-rows: auto auto ;
-    justify-content: center;
-  
   }
 
   @keyframes rotation {
@@ -109,36 +66,9 @@
       margin: 0 auto;
     }
 
-    .about-image:hover {
-      transform: scale(1);
-      box-shadow: black 0px 0px 12px 1px;
-    }
 
     body {
       background-size: 100%;
       backdrop-filter: blur(4px);
-    }     
-  }
-
-  @media (max-width: 1100px) {
-    .about-segment {
-      display: flex;
-      flex-direction: column-reverse;
-      /* align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-        padding: 0; */
-    }
-    .partners {
-      grid-template-columns: auto auto
-    }
-  }
-
-  @media (max-width: 950px) {
-    .carousel {
-      width: 100%;
-    }
-    .partners {
-      grid-template-columns: auto 
     }
   }

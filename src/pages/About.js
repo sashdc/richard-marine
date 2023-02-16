@@ -1,14 +1,15 @@
 import React from "react";
+import "../styles/about.css";
 
 export default function About() {
   return (
     <div className="container-fluid  m-auto mt-5 animate__animated animate__fadeIn">
       <div
         id="carouselExampleControls"
-        className="carousel slide carousel-fade"
+        className="carousel slide shadow carousel-fade"
         data-mdb-ride="carousel"
         data-ride="carousel"
-        data-interval="2500">
+        data-interval="2000">
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img
@@ -62,7 +63,7 @@ export default function About() {
       </div>
 
       <div className="about d-flex w-75 mt-5 flex-column">
-        <h1>ABOUT RMSM</h1>
+        <h1 className='section-heading'>ABOUT RMSM</h1>
         <div className="d-flex m-2 about-segment">
           <img
             src="./richard-marine/images/britannia-foundry.png"
