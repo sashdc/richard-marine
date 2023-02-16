@@ -1,0 +1,14 @@
+.notfound {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notfound a{
+    text-decoration: none;
+    color: black;
+    margin-top: 2rem;
+    flex-direction: column;
+    display: flex;
+  }

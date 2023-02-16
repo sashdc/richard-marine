@@ -1,4 +1,6 @@
-
+.contact{
+    /* padding: 3rem; */
+}
 
 .contact-info{
     width: 50%;
@@ -9,11 +11,6 @@
     width: 60%;
 }
 
-
-
-
-
-
     @media (max-width: 1200px) {
         .contact-info{
             width: 100%;
@@ -22,6 +19,8 @@
         .contact{
             flex-direction: column;
             margin: auto;
+            padding-bottom: 150px;
+
         }
         .contact-form{
             width: 100%;

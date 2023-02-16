@@ -8,6 +8,10 @@
     margin: 0 auto;
   }
 
+.about{
+    padding-bottom: 170px;
+}
+
   .about-image {
     scale: 1;
     transition: all 0.3s ease;

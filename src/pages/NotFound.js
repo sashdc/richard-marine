@@ -1,5 +1,6 @@
 import React from "react";
 import notfound from "../assets/images/404.jpg";
+import "../styles/notfound.css";
 
 export default function NotFound() {
   return (
