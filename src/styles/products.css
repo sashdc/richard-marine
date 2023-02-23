@@ -1,3 +1,12 @@
+.products {
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-template-rows: auto auto ;
+  justify-content: center;
+  width: 80%;
+  margin-top: 2%;
+}
+
 .logocontainer {
     position: relative;
     width: 350px;
@@ -39,8 +48,12 @@
   }
 
 
-  .partner-link a{
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: white;
+
+  @media (max-width: 950px) {
+  
+    .products {
+      grid-template-columns: auto ;
+      padding-bottom: 150px;
+
+    }
   }
