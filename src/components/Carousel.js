@@ -12,14 +12,14 @@ const Carousel = () => {
           <div className="carousel-item active">
             <img
               className="d-block car-image  rounded"
-              src="./richard-marine/carousel/carousel2.jpg"
+              src="./richard-marine/carousel/carousel1.jpg"
               alt="First slide"
             />
           </div>
           <div className="carousel-item">
             <img
               className="d-block car-image rounded"
-              src="./richard-marine/carousel/carousel1.JPG"
+              src="./richard-marine/carousel/carousel2.JPG"
               alt="Second slide"
             />
           </div>
