@@ -2,7 +2,7 @@ export const productData = [
 {
     id: 1,
     name: "TeeHead (R-Type)",
-    url: "http://www.gba-gulf.com/",
+    url: "/teehead",
     image: "./richard-marine/products/teehead.jpg",
     
 },

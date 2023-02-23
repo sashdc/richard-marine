@@ -13,6 +13,7 @@ export default function Products() {
       </div>
       <div className="d-flex w-75 mt-5 flex-wrap justify-content-center">
         <div className="partners  w-100">
+          {/* map over productData to list product and create thumbnails */}
           {productData.map((product) => (
             <Product
               key={product.id}

@@ -12,6 +12,7 @@ import Partners from "./pages/Partners";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import Layout from "./components/Layout";
+import Teehead from "./pages/Teehead";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
                 {/* <Route path="/projects/:id" element={<Project />} /> */}
                 <Route path="contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
+                <Route path="/teehead" element={<Teehead />} />
               </Route>
               <Route path="/" element={<Landing />} />
             </Routes>

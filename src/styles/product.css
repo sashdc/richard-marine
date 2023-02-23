@@ -1,0 +1,13 @@
+.product-section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+
+.product-img {
+    width: auto;
+    height: 70%;
+    
+}
