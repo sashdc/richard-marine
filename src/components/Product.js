@@ -1,5 +1,7 @@
 import React from "react";
 import "animate.css";
+import { Link } from "react-router-dom";
+
 
 export default function Product(props) {
     return (
@@ -12,9 +14,9 @@ export default function Product(props) {
             />
             <div className="overlay">
               <div className="text partner-link">
-                <a href={props.url} target="blank">
+              <Link to={props.url} className="nav-link">
                   {props.name}
-                </a>
+                </Link>
               </div>
             </div>
           </div>
