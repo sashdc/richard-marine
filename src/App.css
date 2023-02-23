@@ -66,9 +66,15 @@
       margin: 0 auto;
     }
 
-
     body {
       background-size: 100%;
       backdrop-filter: blur(4px);
     }
+  }
+
+  /* for smaller screens */
+  @media (max-width: 600px) {
+    .section-heading{
+      font-size: 2rem;
+          }
   }
