@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className="container-fluid  m-auto mt-5 animate__animated animate__fadeIn">
    <Carousel />
-      <div className="about d-flex w-75 mt-5 flex-column">
+      <div className="about d-flex mt-5 flex-column">
         <h1 className='section-heading'>ABOUT RMSM</h1>
         <div className="d-flex m-2 about-segment">
           <img

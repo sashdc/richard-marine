@@ -1,14 +1,16 @@
 import React from "react";
 import "../styles/footer.css";
 import { Link } from "react-router-dom";
+import footerImage from '../../src/assets/images/footerspread.png'
+
 
 export default function Footer() {
   return (
     <div>
-      
     <footer className="footer ">
+    <img src={footerImage} alt="footer" className="footer-image" />
+
     <div className="container-fluid">
-        
         <div className="row">
         
             <div className="col-md-5">
