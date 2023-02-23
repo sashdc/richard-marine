@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    height: auto;
   }
 
   .notfound a{
@@ -11,4 +13,9 @@
     margin-top: 2rem;
     flex-direction: column;
     display: flex;
+  }
+
+  .notfound img{
+    width: 90%;
+    height: auto;
   }

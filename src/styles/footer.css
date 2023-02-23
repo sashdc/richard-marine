@@ -55,4 +55,14 @@ footer .form-control {
   top:-36%;
   left: 0;
   opacity: 80%;
+  transition: all 0.8s ease;
+
+}
+
+
+.footer-image:hover{
+  left: -20px;
+  transition: all 0.8s ease;
+  cursor: grab;
+
 }
