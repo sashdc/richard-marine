@@ -13,13 +13,13 @@
   /* custom scrollbar */
     /* width */
 ::-webkit-scrollbar {
-  width: 14px;
-  
+  width: 10px;
+  height: 1px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #353738;
+  background: #dfdede;
 
 }
 
@@ -27,12 +27,12 @@
 ::-webkit-scrollbar-thumb {
   background: #700303;
   border-radius: 20px;
-
+  
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:active {
-  background: #6b2424;
+  background: #353738;
 }
 
   body {
