@@ -52,7 +52,7 @@ footer .form-control {
   width: 70px;
   height: auto;
   position: absolute;
-  top:-36%;
+  top:-34%;
   left: 0;
   opacity: 80%;
   transition: all 0.8s ease;
@@ -63,6 +63,12 @@ footer .form-control {
 .footer-image:hover{
   left: -20px;
   transition: all 0.8s ease;
+  cursor: grab;
+
+}
+.footer-image:active{
+  left: -3px;
+  transition: all 1.3s ease;
   cursor: grab;
 
 }

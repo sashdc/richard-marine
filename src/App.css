@@ -10,6 +10,31 @@
     font-family: "Kanit", sans-serif;
   }
 
+  /* custom scrollbar */
+    /* width */
+::-webkit-scrollbar {
+  width: 14px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #353738;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #700303;
+  border-radius: 20px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:active {
+  background: #6b2424;
+}
+
   body {
     background-color: #dfdede;
     min-height: 100vh;
@@ -78,3 +103,4 @@
       font-size: 2rem;
           }
   }
+
