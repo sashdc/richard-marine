@@ -3,15 +3,15 @@
 
 /* Sticky footer position and size
 -------------------------------------------------- */
-/* html {
+html {
   position: relative;
   min-height: 10%;
-} */
+}
 
 footer{
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100%; */
   padding-top: 100px;
   /* height: 2.5rem;   */
   border-top: 4px double #bc1822;
