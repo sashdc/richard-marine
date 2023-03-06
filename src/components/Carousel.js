@@ -1,64 +1,32 @@
-import React from 'react'
+import React from 'react';
+import {
+  MDBCarousel,
+  MDBCarouselItem,
+} from 'mdb-react-ui-kit';
 
-const Carousel = () => {
+export default function Carousel() {
   return (
-   <div
-        id="carouselExampleControls"
-        className="carousel slide shadow carousel-fade"
-        data-mdb-ride="carousel"
-        data-ride="carousel"
-        data-interval="2000">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              className="d-block car-image  rounded"
-              src="./richard-marine/carousel/carousel1.jpg"
-              alt="First slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block car-image rounded"
-              src="./richard-marine/carousel/carousel2.JPG"
-              alt="Second slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block car-image rounded"
-              src="./richard-marine/carousel/carousel3.jpg"
-              alt="Third slide"
-            />
-          </div>
-          <div className="carousel-item">
-            <img
-              className="d-block car-image  rounded"
-              src="./richard-marine/carousel/carousel4.jpg"
-              alt="Third slide"
-            />
-          </div>
-        </div>
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev">
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next">
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"></span>
-          <span className="sr-only">Next</span>
-        </a>
-      </div>  )
+    <MDBCarousel showControls fade className='carousel'>
+      <MDBCarouselItem
+        className='w-100 d-block '
+        itemId={1}
+        src="./richard-marine/carousel/carousel1.jpg"        alt='...'
+      />
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={2}
+        src="./richard-marine/carousel/carousel2.jpg"        alt='...'
+      />
+      <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={3}
+        src="./richard-marine/carousel/carousel3.jpg"        alt='...'
+      />
+         <MDBCarouselItem
+        className='w-100 d-block'
+        itemId={3}
+        src="./richard-marine/carousel/carousel4.jpg"        alt='...'
+      />
+    </MDBCarousel>
+  );
 }
-
-export default Carousel

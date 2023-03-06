@@ -13,7 +13,7 @@
   /* custom scrollbar */
     /* width */
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 18px;
   height: 1px;
 }
 
@@ -26,8 +26,8 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #700303;
-  border-radius: 20px;
-  
+  border-radius: 80px;
+  /* border: 6px solid #dfdede */
 }
 
 /* Handle on hover */
@@ -55,13 +55,17 @@
     box-shadow: 0px 2px 12px 4px rgb(88, 88, 88);
   }
 
-  .section-heading{
+.section-heading{
+  font-size: 3rem;
+}
+
+  .section-heading::first-letter {
     text-decoration-line: underline;
-    text-decoration-style: double;
-    text-decoration-color: rgb(180, 3, 17);
-    text-decoration-thickness: 3px;
-    text-underline-offset: 07px;
-    font-size: 3rem;
+        /* text-decoration-style: ; */
+    text-decoration-color: rgb(180, 3, 17, 0.3);
+    text-decoration-thickness: 14px;
+    text-underline-offset: 02px;
+    
   }
 
   .landinglogo {
