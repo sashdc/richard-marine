@@ -10,13 +10,12 @@ export default function Carousel() {
         src="./richard-marine/carousel/carousel1.jpg"
         alt="close up of bollard with company mark"
       />
-      <MDBCarouselItem
-        className="w-100 d-block"
+        <MDBCarouselItem
+        className="w-100 d-block "
         itemId={2}
         src="./richard-marine/carousel/carousel2.jpg"
-        alt="a bollard close up with the dock extending into the background"
-      />
-      <MDBCarouselItem
+        alt="a bollard close up with the dock extending into the background"      />
+         <MDBCarouselItem
         className="w-100 d-block"
         itemId={3}
         src="./richard-marine/carousel/carousel3.jpg"
