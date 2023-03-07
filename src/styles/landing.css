@@ -9,7 +9,11 @@
  
 
 .landinglogo {
+    animation: rotation 10s infinite linear;
+
 height: 50rem;
+animation-timing-function: ease-in-out;
+
 }
 
 @media (max-width: 1000px) {
