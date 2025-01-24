@@ -1,6 +1,7 @@
 import React from "react";
 import "animate.css";
-import  { Link, useParams } from 'react-router-dom'
+import  { Link, useParams } from 'react-router-dom';
+
 
 
 export default function Product() {
